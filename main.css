@@ -772,9 +772,11 @@ s {
 .immgg {
     margin-top: 220px;
 }
+
 .footer_cards {
     display: flex;
 }
+
 .footer_card1-title {
     width: 149xx;
     margin-left: 150px;
@@ -843,4 +845,79 @@ s {
 
 .footer_title-title {
     text-align: center;
+}
+
+
+
+
+.header_nav-portfolio {
+    background: url("./img/photo_2025-02-18_09-56-47.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 450px;
+    margin-top: 60px;
+}
+
+.header_nav-shop-title {
+    text-align: center;
+    padding-top: 181px;
+    font-size: 60px;
+    color: #274C5B;
+}
+
+
+
+
+
+.main {}
+
+.container {}
+
+.main_cards {}
+
+.main_card {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-top: 20px;
+}
+
+.main_box {}
+
+.main_card-title {
+    font-family: var(--roboto);
+    font-weight: 800;
+    color: #274C5B;
+    font-size: 25px;
+    line-height: 29.3px;
+    letter-spacing: 0%;     
+}
+
+.main_card-text {
+    font-family: var(--yellowtail);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29.98px;
+    letter-spacing: 0%;
+    color: #7EB693;
+}
+
+.main_card-img {
+    border-radius: 30px;
+    width: 390px;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;    
+    height: 390px;
+}
+.main_card-img:hover{
+    color: #F9F8F8 ;
+    opacity: 20px;
+}
+.imggggg{
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 60px;
 }
